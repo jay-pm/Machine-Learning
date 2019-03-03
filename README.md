@@ -1,2 +1,2 @@
 # Machine-Learning
-Intuition and project on each algorithm
+Intuition and implementation of ML algos.
