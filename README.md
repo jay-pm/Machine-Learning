@@ -12,10 +12,10 @@ Why bother about missing data?
     - remove rows >> .dropna(axis=0)
     - remove columns >> .dropna(axis =1)
   - Imputation
-    - fill with zero >> SimpleImputer(strategy = 'constant', fill_value = 0) [Bias results downwards]
-    - fill with mean >> SimpleImputer(strategy = 'mean') [affected more by outliers]
-    - fill with median >> SimpleImputer(strategy = 'median') [better in case of outliers]
-    - fill with mode >> SimpleImputer(strategy = 'most_frequent')
+    - fill with zero >> SimpleImputer(strategy = 'constant', fill_value = 0) *[Bias results downwards]*
+    - fill with mean >> SimpleImputer(strategy = 'mean') *[affected more by outliers]*
+    - fill with median >> SimpleImputer(strategy = 'median') *[better in case of outliers]*
+    - fill with mode >> SimpleImputer(strategy = 'most_frequent') *[have varying degree of helpfullness]*
 3. Outliers
 4. Normalization
 
