@@ -2,7 +2,7 @@
 
 
 ### Pre-processing and Visualization
-1. Missing data
+**1. Missing data**  
 Why bother about missing data?  
   - how you handle missing values can introduce bias, so handling it appropriately will reduce that probability.
   - Most ML algorithms require complete data (else an error is generated)  
