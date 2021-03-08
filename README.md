@@ -2,7 +2,17 @@
 
 
 ### Pre-processing and Visualization
-Missing data, Outliers, Normalization
+1. Missing data
+  - Omission
+    - remove rows >> .dropna(axis=0)
+    - remove columns >> .dropna(axis =1)
+  - Imputation
+    - fill with zero >> SimpleImputer(strategy = 'constant', fill_value = 0)
+    - fill with mean >> SimpleImputer(strategy = 'mean')
+    - fill with median >> SimpleImputer(strategy = 'median')
+    - fill with mode >> SimpleImputer(strategy = 'most_frequent')
+3. Outliers
+4. Normalization
 
 ### Supervised Learning
 Feature selection, Regularization, Feature engineering
