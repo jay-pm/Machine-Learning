@@ -21,7 +21,14 @@ Note: the best approach is to try out all below techniques for filling missing v
 4. Normalization
 
 ### Supervised Learning
-Feature selection, Regularization, Feature engineering
+**1. Feature selection**  
+Selecting correct features is important because it:
+1. reduces overfitting
+2. improves accuracy
+3. increases interpretability.
+
+
+, Regularization, Feature engineering
 
 ### Unsupervised Learning
 Cluster algorithm selection, Feature extraction, Dimension reduction
