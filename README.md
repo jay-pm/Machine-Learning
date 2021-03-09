@@ -23,9 +23,10 @@ Note: the best approach is to try out all below techniques for filling missing v
 ### Supervised Learning
 **1. Feature selection**  
 Selecting correct features is important because it:
-1. reduces overfitting
-2. improves accuracy
-3. increases interpretability.
+1. reduces overfitting (by removing unimportant features that contributes noise but no information)
+2. improves accuracy (since any potentially misleading data is removed)
+3. increases interpretability (because the model is less complex)
+4. reduces training time (less data takes less time to train)
 
 
 , Regularization, Feature engineering
